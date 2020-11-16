@@ -1,0 +1,113 @@
+form fieldset > label {
+    display: block;
+    max-width: 100%;
+    width: 30em;
+    clear: both;
+    position: relative;
+    min-height: 2em;
+   }
+   
+   label input {
+      float: right;
+   }
+#leimaus {
+    list-style:none;
+    
+}
+#sarja {
+    list-style: none;
+    
+}
+#leimausLabel{
+    display:flow-root;
+    float: right;
+    clear: right;
+    
+}
+#sarjaLabel{
+    display: flow-root;
+    float: right;
+    clear: right;
+    
+}
+
+   p {
+    clear: both;
+    width: 30em;
+    max-width: 100%;
+    position: relative;
+   }
+   p li {
+     float: right;
+   }
+
+div.lists{
+    clear: both;
+    order: 2;
+    float: right;
+}
+div.forms {
+    float: left;
+}
+
+@media only screen and (max-width:300px){
+   form fieldset > label {
+    display: inline-grid;
+    width: 15em;
+    clear: both;
+    position: relative;
+   }
+#leimausLabel{
+    display:flow-root;
+    float: left;
+    clear: left;
+    margin: auto;
+    
+}
+#sarjaLabel{
+    display: flow-root;
+    float: left;
+    clear: left;
+    
+}
+ #sarjaP{
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+    
+    
+}
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+     form fieldset > label {
+    display:inline-grid;
+    max-width: 80%;
+    width: 15em;
+    clear: both;
+    position: relative;
+    min-height: 2em;
+   }
+    form {
+        display: inline-block;
+        position: relative;
+    }
+    #sarjaP{
+        margin-top: 2em;
+        margin-bottom: 0;
+    }
+#leimausLabel{
+    display:flow-root;
+    float: left;
+    clear: left;
+   margin-top: 0;
+    
+}
+#sarjaLabel{
+    display: flow-root;
+    float: left;
+    clear: left;
+    margin-top: 0;
+    
+}
+  
+}
